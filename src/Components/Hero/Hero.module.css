@@ -1,0 +1,84 @@
+.hero {
+    width: 467px;
+    height: 544px;
+    top: 172px;
+    left: 820px;
+    position: relative;
+
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 544px;
+   position: relative;
+   top: 100px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+}
+
+.title p {
+    color: white;
+    font-family: Inter;
+    font-size: 66px;
+    font-weight: 500;
+    line-height: 10px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.title span {
+    color: #ffffff6b;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.inputwrap{
+    position: relative;
+    top: 100px;
+}
+
+.button {
+    background-color: #E3B748;
+    color: black;
+    height: 62px;
+    width: 137px;
+    border-radius: 43px;
+    position: absolute;
+    top: 23px;
+    left: 380px;
+    border: 1px solid #1e1b1b;
+}
+
+.img{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 33px;
+    left: 30px;
+}
+
+.email {
+    position: absolute;
+    width: 438px;
+    height: 74px;
+    top: 10px;
+    left: 0px;
+    border-radius: 43px;
+    opacity: 0.1px;
+    font-size: 18px;
+    text-align: left;
+    color: white;
+    background-color: #1e1b1b;
+    border: 5px solid black;
+    padding-left: 80px;
+}

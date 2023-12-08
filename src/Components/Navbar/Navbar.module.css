@@ -1,0 +1,46 @@
+.containerfluid {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 950px;
+    position: relative;    
+}
+
+.container {
+    width: 80%;
+    position: absolute;
+    top: 70px;   
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+}
+
+.menu a {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.button {
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    padding: 10px 20px 10px 20px;
+    background-color: black;
+}
