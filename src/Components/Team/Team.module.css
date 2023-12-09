@@ -1,0 +1,79 @@
+.containerfluid {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #171414;
+    height: 600px;
+    position: relative;
+}
+
+.container {
+    width: 80%;
+    position: absolute;
+    top: 40px;
+}
+
+.groupTitle {
+    height: 250px;
+    top: 1501px;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    color: white;
+    font-family: Inter;
+    font-size: 54px;
+    font-weight: 600;
+    /* line-height: 77px; */
+    letter-spacing: 0em;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+
+.TeamCard {
+    width: 344px;
+    height: 109px;
+    top: 4583px;
+    left: 552px;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TeamCard:hover {
+    background-color: #E3B748;    
+}
+
+.TeamDetail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+  
+}
+
+.name {   
+    height: 10px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;    
+    color: white;
+}
+
+.cases {   
+    color: rgb(135, 129, 129);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;      
+
+}

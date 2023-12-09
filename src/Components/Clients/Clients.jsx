@@ -21,7 +21,7 @@ function Clients() {
                     </div>
                 </div>
                 <div className={styles.cards}>
-                    <div className={styles.card2}>
+                    <div className={styles.card1}>
                         <img src={clientimg1} alt="client1-png" className={styles.imgChooseIcon} />
                         <p className={styles.cardTitle}>Jane Cooper</p>
                         <p className={styles.cardSubTitle}>CEO of Hunt</p>
@@ -37,7 +37,7 @@ function Clients() {
                             sit aliqua dolor do amet sint. Velit officia
                             consequatduis enim velit mollit Exer.</p>
                     </div>
-                    <div className={styles.card2}>
+                    <div className={styles.card1}>
                         <img src={clientimg3} alt="client1-png" className={styles.imgChooseIcon} />
                         <p className={styles.cardTitle}>Robert Fox</p>
                         <p className={styles.cardSubTitle}>CEO of Hunt</p>

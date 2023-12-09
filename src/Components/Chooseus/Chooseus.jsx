@@ -20,7 +20,7 @@ function Chooseus() {
                             <button className={styles.cardButton}>Reaad More</button>
                         </div>
                     </div>
-                    <div className={styles.card2}>
+                    <div className={styles.card1}>
                         <img src={iconImg} alt="img-icon-chooseus" className={styles.imgChooseIcon} />
                         <p className={styles.cardTitle}>100% Success Rate</p>
                         <p className={styles.cardDefinition}>Amet minim mollit non deserunt ullamco est
@@ -41,8 +41,6 @@ function Chooseus() {
                         </div>
                     </div>
                 </div>
-
-
             </div>
         </div >);
 }

@@ -6,6 +6,10 @@ import Introduction from './Components/Introduction/Introduction';
 import Chooseus from './Components/Chooseus/Chooseus';
 import AreaofPractice from './Components/AreaofPractice/AreaofPractice';
 import Clients from './Components/Clients/Clients';
+import Team from './Components/Team/Team';
+import FAQ from './Components/FAQ/FAQ';
+import Newsletter from './Components/Newsletter/Newsletter';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (<>
@@ -14,6 +18,10 @@ function App() {
     <Chooseus />
     <AreaofPractice />
     <Clients />
+    <Team />
+    <FAQ />
+    <Newsletter />
+    <Footer />
   </>
   );
 }
